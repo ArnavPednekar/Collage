@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "e90ac2121b9a06d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b82c891cd43b15b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e9bb58421d9d723",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8f09880effbfe4d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a22d277cfeb2de72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "College"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3819ebfab2b73ef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "855074082e298652",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5376f5a15abc7069",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "afe9663f6591d300",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c56060e154aa11cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1c56f2b448c9fb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e2ffbb4c0ada299",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc7439cfb9879f4f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SEM 4/ATFL/Assignments/Assignments.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Assignments"
+            }
+          },
+          {
+            "id": "a8ffd73eeb538517",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SEM 4/ATFL/Assignments/Assignments.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Assignments"
+            }
+          },
+          {
+            "id": "52b8819e0a2d47a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "626cc4cdf6e820bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "46e02764615db272",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SEM 4/ATFL/Assignments/Assignments.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Assignments"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2e9bb58421d9d723",
+  "lastOpenFiles": [
+    "SEM 4/SEM 4.md",
+    "College.md",
+    "SEM 4/IOT/IOT.md",
+    "SEM 4/CNT/CNT.md",
+    "SEM 4/Subjects to be Submmited.md",
+    "SEM 4/ATFL/ATFL.md",
+    "SEM 4/SE/SE.md",
+    "SEM 4/SE/Notes/Notes.md",
+    "SEM 4/SE/Assignments/Assignments.md",
+    "SEM 4/OPPS/OOPS.md",
+    "SEM 4/OPPS/Notes/Notes.md",
+    "SEM 4/OPPS/Assignments/Assignments.md",
+    "SEM 4/IOT/Notes/Notes.md",
+    "SEM 4/IOT/Assignments/Assignments.md",
+    "SEM 4/CNT/Notes/Notes.md",
+    "SEM 4/CNT/Assignments/Assignments.md",
+    "SEM 4/ATFL/Experiments/Experiments.md",
+    "SEM 4/ATFL/Notes/Notes.md",
+    "SEM 4/ATFL/Assignments/Assignments.md",
+    "SEM 4/SE/Experiments/Experiments.md",
+    "SEM 4/CNT/Experiments/Experiments.md",
+    "SEM 4/IOT/Experiments/Experiments.md",
+    "SEM 4/OPPS/Experiments/Experiments.md",
+    "SEM 4/SE/Notes",
+    "SEM 4/SE/Experiments/expt 9.md",
+    "SEM 4/SE/Experiments/expt 8.md",
+    "SEM 4/SE/Experiments/expt 7.md",
+    "SEM 4/SE/Experiments",
+    "SEM 4/SE/Assignments",
+    "SEM 4/OPPS/Notes",
+    "SEM 4/OPPS/Experiments",
+    "SEM 4/OPPS/Assignments",
+    "SEM 4/IOT/Notes",
+    "SEM 4/IOT/Experiments",
+    "SEM 4/IOT/Assignments",
+    "SEM 4/CNT/Notes"
+  ]
+}
