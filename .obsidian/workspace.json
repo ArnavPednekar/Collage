@@ -11,10 +11,14 @@
             "id": "a0981592752d61e6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "SEM 5/DBMS/miniproject/Academytracker",
+                "bFile": "SEM 5/DBMS/miniproject/Academytracker",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Academytracker  (Working Tree)"
             }
           }
         ]
