@@ -1,0 +1,18 @@
+[package]
+name = "ai_tower_defense"
+version = "0.1.0"
+edition = "2024"
+description = "AI Tower Defense - procedural mazes and A* pathfinding, built with Bevy"
+license = "MIT"
+publish = false
+
+[dependencies]
+# 3d (PBR + glTF), ui, and png for the embedded Kenney texture atlas.
+bevy = { version = "0.19.1", default-features = false, features = ["3d", "ui", "png"] }
+rand = "0.10"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

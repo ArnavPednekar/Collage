@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9b82c891cd43b15b",
+        "id": "99e2cbd3d42e8289",
         "type": "tabs",
         "children": [
           {
-            "id": "2e9bb58421d9d723",
+            "id": "a0981592752d61e6",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8f09880effbfe4d6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a22d277cfeb2de72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "College"
             }
           }
         ]
@@ -57,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -180,13 +162,33 @@
               "icon": "lucide-list",
               "title": "Outline of Assignments"
             }
+          },
+          {
+            "id": "ba9a055ad8b68530",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "d07b1b88950f76f6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,38 +198,46 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "2e9bb58421d9d723",
+  "active": "a0981592752d61e6",
   "lastOpenFiles": [
-    "SEM 4/SEM 4.md",
+    "SEM 5/DAA/expt12/expt 12.md",
+    "SEM 5/AI/AI.md",
+    "SEM 5/STQA/Expt1/pdfmaker/frontend/node_modules/postcss/README.md",
+    "SEM 5/STQA/Expt1/pdfmaker/pdfmaker.md",
+    "SEM 5/DBMS/miniproject/Academytracker/Academytracker.md",
+    "SEM 5/AI/AiProject/AiProject.md",
+    "SEM 5/STQA/Expt1/pdfmaker/frontend/node_modules/@types/react-dom/README.md",
     "College.md",
-    "SEM 4/IOT/IOT.md",
-    "SEM 4/CNT/CNT.md",
-    "SEM 4/Subjects to be Submmited.md",
-    "SEM 4/ATFL/ATFL.md",
-    "SEM 4/SE/SE.md",
-    "SEM 4/SE/Notes/Notes.md",
-    "SEM 4/SE/Assignments/Assignments.md",
-    "SEM 4/OPPS/OOPS.md",
-    "SEM 4/OPPS/Notes/Notes.md",
-    "SEM 4/OPPS/Assignments/Assignments.md",
-    "SEM 4/IOT/Notes/Notes.md",
-    "SEM 4/IOT/Assignments/Assignments.md",
-    "SEM 4/CNT/Notes/Notes.md",
-    "SEM 4/CNT/Assignments/Assignments.md",
-    "SEM 4/ATFL/Experiments/Experiments.md",
-    "SEM 4/ATFL/Notes/Notes.md",
-    "SEM 4/ATFL/Assignments/Assignments.md",
-    "SEM 4/SE/Experiments/Experiments.md",
-    "SEM 4/CNT/Experiments/Experiments.md",
-    "SEM 4/IOT/Experiments/Experiments.md",
-    "SEM 4/OPPS/Experiments/Experiments.md",
+    "SEM 5/STQA/Expt8/expt 8.md",
+    "SEM 5/STQA/Expt7/expt 7.md",
+    "SEM 5/STQA/Expt6/expt 6.md",
+    "SEM 5/STQA/Expt5/expt 5.md",
+    "SEM 5/STQA/Expt4/expt 4.md",
+    "SEM 5/STQA/Expt3/expt 3.md",
+    "SEM 5/STQA/Expt2/expt 2.md",
+    "SEM 5/STQA/Expt1/expt 1.md",
+    "SEM 5/DAA/expt13/expt 13.md",
+    "SEM 5/DAA/expt11/expt 11.md",
+    "SEM 5/DAA/expt10/expt 10.md",
+    "SEM 5/DAA/expt9/expt 9.md",
+    "SEM 5/DAA/expt8/expt 8.md",
+    "SEM 5/DAA/expt7/expt 7.md",
+    "SEM 5/DAA/expt6/expt 6.md",
+    "SEM 5/DAA/expt5/expt 5.md",
+    "SEM 5/DAA/expt4/expt 4.md",
+    "SEM 5/DAA/expt3/expt 3.md",
     "SEM 4/SE/Notes",
-    "SEM 4/SE/Experiments/expt 9.md",
-    "SEM 4/SE/Experiments/expt 8.md",
-    "SEM 4/SE/Experiments/expt 7.md",
     "SEM 4/SE/Experiments",
     "SEM 4/SE/Assignments",
     "SEM 4/OPPS/Notes",

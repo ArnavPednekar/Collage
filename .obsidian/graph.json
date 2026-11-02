@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-file:README -file:LICENSE -file:License -path:node_modules -path:.venv -path:venv -path:target -path:.git",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6300325628792368,
+  "scale": 0.6276222822253457,
   "close": true
 }
