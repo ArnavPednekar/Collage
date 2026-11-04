@@ -1,10 +1,11 @@
-# CONTEXT SAVE — 2026-10-24 (mid-session)
+# CONTEXT SAVE — 2026-11-03
 
 Working dir: /home/sunrays/Documents/College/SEM 5/AI/AiProject (git repo).
 
 ## Objective overall
-- Phase 1 (DONE): Python/pygame tower defense with procedural maze + A*, plus Review-1 PPT deck.
-- Phase 2 (ACTIVE): Rust + Bevy port now has the central-core redesign, six upgradeable towers, multi-gate waves, raised terrain and top/bottom HUD. Remaining: final balance/visual polish, reusable-components report, deck team details.
+- Phase 1 (DONE): Python/pygame tower defense with procedural maze + A*.
+- Phase 2 (DONE): Rust + Bevy port with central core, six upgradeable towers, four gates, multi-gate waves, raised terrain and top/bottom HUD. 64 tests, clippy and fmt clean.
+- Review-1 deck (DONE): simplified to 8 algorithm-focused slides and updated to the current Rust design. Remaining: team names/roll numbers on slide 1.
 
 ## Phase 2 progress (what we established this session)
 1. Toolchain: cargo/rustc 1.95.0 OK. Bevy 0.20 needs rustc 1.97.1 → must use **bevy 0.19.1** (verified via `cargo add`).
@@ -39,6 +40,16 @@ Working dir: /home/sunrays/Documents/College/SEM 5/AI/AiProject (git repo).
 - A* remains 4-connected Manhattan with heap; every gate must remain connected when a tower is placed.
 
 
+## Latest deck update (2026-11-03)
+- `tools/make_ppt.py` now builds **8 slides**: title, problem, randomized DFS, A*, map-generation pipeline, why Rust, validation, conclusion.
+- Removed the old game-rules, tower/enemy-stat, interface, codebase-walkthrough and 15-wave balance slides; the deck is now algorithm-first.
+- Slide 5 now explains the full generation pipeline: wall grid → DFS carve → braid → core + four gates.
+- Slide 6 now explains why the project moved to Rust: no GC pauses, compile-time safety, pure simulation vs Bevy rendering, cargo tooling.
+- New figures: `assets/maze_pipeline.png` (four-stage generation), `assets/maze_gates.png` (four gate-to-core A* routes), `assets/astar_gates.png` (explored nodes + route). `assets/repath_gates.png` exists but is no longer used in the deck.
+- Presentation script: `PRESENTATION_SCRIPT.md` (slide-by-slide talk track, timing, Q&A prep).
+- QA rendered via Aspose; watermark is render-only. Team placeholders remain on slide 1.
+- Regenerate with `.venv/bin/python tools/make_ppt.py`; output is `AI_Tower_Defense.pptx`.
+
 ## Session history summary
 - Built Python game (main.py, td/{config,maze,pathfinding,entities,game}.py, requirements.txt), fixed A* walls bug, assets/ (gameplay, maze_output, astar_demo, hero_maze, repath_demo), tools/{make_assets,make_ppt}.py.
 - 12-slide AI_Tower_Defense.pptx final: all slides visually QA'd via Aspose render (watermark = render-only artifact). Headers: 04·AI·MAZE GENERATION/PATHFINDING/ADAPTATION. Slide 9 badge 4 moved to (1.16,5.3). Slide 4 rules card h=2.7, rules start 2.0 gap .32. Slide 7 footnote at y 6.24 ("path length 31 → 59", repath seed 267, block (14,3), detour 28).
@@ -64,7 +75,7 @@ Implemented and verified:
 - Kill game: `pgrep -af target/debug/ai_tower_defense`, then `kill <pid>` (do not use `pkill -f`, it can kill the shell).
 
 ### Remaining
-1. Optional: reusable-components report (sim vs view vs UI).
-2. Optional: balance pass after playing waves 1–15; tune core HP/gold/tower stats.
-3. Optional: health-bar readability / snow-patch polish.
-4. Deck still needs team names + roll numbers on slide 1.
+1. Deck still needs team names + roll numbers on slide 1.
+2. Optional: reusable-components report (sim vs view vs UI).
+3. Optional: balance pass after playing waves 1–15; tune core HP/gold/tower stats.
+4. Optional: health-bar readability / snow-patch polish.

@@ -11,14 +11,14 @@
             "id": "a0981592752d61e6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "SEM 5/DBMS/miniproject/Academytracker",
-                "bFile": "SEM 5/DBMS/miniproject/Academytracker",
-                "aRef": ""
+                "file": "SEM 5/AI/AiProject/PRESENTATION_SCRIPT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Academytracker  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "PRESENTATION_SCRIPT"
             }
           }
         ]
@@ -209,8 +209,7 @@
       "audio-recorder:Start/stop recording": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "a0981592752d61e6",
