@@ -1,6 +1,0 @@
-[submodule "SEM 5/DBMS/miniproject/Academytracker"]
-	path = SEM 5/DBMS/miniproject/Academytracker
-	url = https://github.com/ArnavPednekar/Academytracker.git
-[submodule "SEM 5/STQA/Expt1/pdfmaker"]
-	path = SEM 5/STQA/Expt1/pdfmaker
-	url = https://github.com/ArnavPednekar/pdfmaker.git

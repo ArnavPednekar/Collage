@@ -19,3 +19,7 @@ Thumbs.db
 *.obj
 *.exe
 *.out
+
+# Projects with their own GitHub repositories
+SEM 5/DBMS/miniproject/Academytracker/
+SEM 5/STQA/Expt1/pdfmaker/
